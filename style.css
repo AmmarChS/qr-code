@@ -1,0 +1,85 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  margin: 20px;
+  padding: 0;
+  width: auto;
+  height: auto;
+
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+img {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.card-body{
+  width: 300px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 15px;  
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 21.99px;
+}
+
+/*
+    
+    
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+
+*/
